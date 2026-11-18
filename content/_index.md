@@ -6,14 +6,14 @@ date: 2018-07-13T00:36:59+01:00
 draft: false
 ---
 
-# Exmouth, an Awesome Kitesurfing & Wing Foiling Location
+# Exmouth, an Awesome Kitesurfing & Winging Location
 
 The seaside town of Exmouth has some of the best water sports locations in the country in the form of the [Duck Pond](spot-guide/duck-pond) (the Exe estuary) and the [Seafront](/spot-guide/seafront/) with its golden sands, awesome views and fantastic tidal conditions.
 
 The two locations allow kite surfing, winging and wind surfing in a huge variety of conditions and wind directions. Kitesurfing and Winging in Exmouth has become massively successful. On a perfect day, we have seen over 100 people on the water!
 
 <div class="text-center">
-<strong>Safety and awareness are central to Exmouth's long-term future as one of the UK's best kitesurfing and wing surfing locations.</strong>
+<strong>Safety and awareness are central to Exmouth's long-term future as one of the UK's best kitesurfing and Wing Foiling locations.</strong>
 </div>
 <br>
 

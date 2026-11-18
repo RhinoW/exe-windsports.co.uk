@@ -6,15 +6,15 @@ This voluntary Code of Conduct has been developed in association with [British K
 
 ## General
 
-Kite Surfing is an extreme sport and potentially dangerous to both the participant and others. Although flying and riding locations differ and local considerations will apply, the guidelines below will be relevant and appropriate in most situations.
+Kite Surfing & Winging are extreme sports and potentially dangerous to both the participant and others. Although flying and riding locations differ and local considerations will apply, the guidelines below will be relevant and appropriate in most situations.
 
 You should hold **third party insurance** (such as you get through [BKSA Membership](/membership/)) and have received thorough training from a qualified instructor, or, that you are competent to [British Kitesports level 3](https://www.britishkitesports.org/safety/). 
 
 We strongly discourage participants from attempting to teach themselves. By seeking qualified instruction you will: learn faster and with greater safety for yourself and those around; become competent and progress to a higher level more quickly; you will have more fun. **Instruction is an investment that will pay for itself.**
 
-## Exmouth Kite Surfing Sites
+## Exmouth Kite Surfing / Winging Sites
 
-There are two kiteboarding sites in Exmouth.
+There are two sites in Exmouth.
 
 * The [**Seafront**](/spot-guide/seafront/) is not for beginners. Kite surfers wishing to ride the front must be competent and able to stay upwind. There is a voluntary launch area opposite the Queens Road car park. The **seafront should only be used to launch/land** and never to practice land-based flying skills, especially jumping. We must **keep out of the way of vessels in the Navigation Channel** that runs alongside the front of the beach.
 * The [**Duckpond**](/spot-guide/duck-pond/) is for everyone offering a large riding area where you can be pretty sure you are going to be within your depth, but always check the water is deep enough to avoid injury when falling. The duckpond can be used in most conditions; learners should arrive early, launch on the sand, and avoid kiting at high tide unless able to stay upwind. This area has a **Wildlife Refuge area active from 15th September to the end of December and it’s vital we keep out of this area.**
