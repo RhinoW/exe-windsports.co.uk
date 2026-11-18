@@ -3,54 +3,191 @@ title: "Weather"
 description: "Weather forecast and conditions for kite-surfing in Exmouth (Duck Pond and Seafront)"
 ---
 
-There are two spots in Exmouth - the [Sea Front and Duck Pond](/spot-guide/) and the wind and tide conditions dictate which will be best at any particular time.
+## Weather Dashboard
 
-## Forecast
-* [EDGE Watersports](https://www.edgewatersports.com/live-conditions/) - regularly  update a "Daily Report" and where and when is likely to be best depending on conditions and tide. Great for picking up not only when its good but also WHY so you can better understand weather (also on [Facebook](https://www.facebook.com/edgewatersports) )
-* [Windguru - Exmouth](https://www.windguru.cz/47887)
-* [Tide Times](https://www.tidetimes.org.uk/exmouth-dock-tide-times)
-* [Magic Seaweed](https://magicseaweed.com/Exmouth-Surf-Report/164/)
-* [Met Office - surface pressure charts](https://www.metoffice.gov.uk/weather/maps-and-charts/surface-pressure/)
-
-## Live conditions
-
-### Wind
-
-* [Weather station in the middle of the Exe Estuary](https://www.windguru.cz/station/1882) - great live feed + history so you can see the trend
-* [Exmouth Coastwatch](https://exmouthcoastwatch.co.uk/weather/) - under-reads if the wind has any North in it so check the Exe one above too. Can be offline and showing old data at times so check the error at the top - if it's showing red and "4 hours since last update". Click on the dials to see a history.
-* [XC Weather](https://www.xcweather.co.uk/) - broader overview of the wind (actual and forecast) over the UK.
-
-### Webcams - Seafront
-* [Exmouth Coastwatch](https://exmouthcoastwatch.co.uk/beach-cams/2014-03-17-13-39-08)
-* [Interactive Webcam](http://www.exmouthcam.co.uk/webcam/)
-
-## Dashboard
-
-<div class="row">
-
-<div class="col-sm-6 text-center">
-    {{< tide-times-exmouth >}}
-</div>
-
-<div class="col-sm-6">
-    In general
-    <br> <br>
-    <ul>
-        <li>Duck Pond is better around High Tide</li>
-        <li>Sea Front is better around Low Tide</li>
-    </ul>
-
-    See the detailed <a href="/spot-guides/">Spot Guides</a> for more information
-</div>
-
-</div>
+{{< windguru-forecast-exmouth-seafront >}}
 
 <!-- TODO - some explanation of springs/neaps, high/low tides and what it means for us -->
 
-<br>
+<div class="row">
+    <div class="col-lg-4 col-sm-12 text-center">
+        {{< tide-times-exmouth >}}
+    </div>
+    <div class="col-lg-8 col-sm-12 text-center align-self-center">
+        <div class="video-container text-center mt-2">
+            <i class="fa fa-video-camera ml-2" style="font-size:200%; color:#f96332" aria-hidden="true"></i><br>
+            <a href="https://www.viewcam.co.uk/clients/feeds/ssl/codegenssl.php?feed=nciexmouth&version=compatible" target="_blank" rel="noopener noreferrer">
+                Exmouth NCI webcam
+                <!-- <i class="fa fa-video-camera ml-2" style="font-size:200%" aria-hidden="true"></i> -->
+            </a>
+            <br>
+            <!-- <a href="https://www.edgewatersports.com/live-conditions/" target="_blank" rel="noopener noreferrer">
+                EDGE watersports webcam
+            </a>
+            <br> -->
+            <a href="https://www.exmouthcam.co.uk/webcam/" target="_blank" rel="noopener noreferrer">
+                Exmouthcam Seafront Webcam
+            </a>
+        </div>
+        <div class="pt-3 pb-3" style="font-weight:bold">            
+             <!-- {{< wildlife-refuge >}}  -->
+             <!-- <a href="/straight-point">
+                <i class="fa fa-crosshairs" aria-hidden="true" style="font-size:200%; color:red"></i>
+                <br>
+                <span style="color:red">
+                Safety Warning : Straight Point Firing Range
+                </span>
+             </a> -->
+<style>
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(15deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-15deg); }
+  100% { transform: rotate(0deg); }
+}
+</style>
+             <a href="https://www.facebook.com/groups/exmouthkitesurf/permalink/4564404783841873/" target="_blank">                
+                <i class="fa fa-beer" aria-hidden="true" style="font-size:300%; color:#F6C342;
+                animation: tilt-shaking 0.5s ease-in-out infinite;"></i>
+                <br>
+                <span style="color:navy">
+                Social - Friday 12th June @ Sideshore - 5-7pm                
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
 
-{{< windguru-exmouth-seafront >}}
+<style>
+.windguru-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+.windguru-container iframe {    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+}
+</style>
 
-<br>
+<!-- No widget for weather station, so just show in iFrame 
 
-<!-- TODO - wind conditions from exmouth NCI? -->
+l = sponsor logo
+n = spot name
+g = graph
+c = readings at bottom
+height = 395 for all
+       = 315 for g,c
+-->
+
+<!-- <div class="text-danger m-3"><strong>WARNING</strong> - Currently the Seafront weather station is stuck showing S wind direction and the Duckpond station is out of order. See <strong><a href="https://exmouthcoastwatch.co.uk/weather/" target="_blank" rel="noopener noreferrer">NCI Weather Station</a></strong></div> -->
+
+<!-- <p class="mb-0"><strong>Seafront - live wind</strong></p>
+<div class="windguru-container text-center">
+<iframe src="https://www.windguru.cz/wglive-iframe.php?s=14968&wj=knots&tj=c&m=3&gsize=200&msize=200&show=g,c" frameborder="0"></iframe>
+</div>
+<p>See also the <a href="https://exmouthcoastwatch.co.uk/weather/" target="_blank" rel="noopener noreferrer">Exmouth NCI weather station</a></p>
+<p><em>Warning - the seafront weather stations under read if there is any North component to the wind<em><p> -->
+
+<p class="mb-0"><strong>Seafront - live wind</strong></p>
+<div class="windguru-container text-center">
+<iframe src="https://www.windguru.cz/wglive-iframe.php?s=15502&wj=knots&tj=c&m=3&gsize=200&msize=200&show=g,c" frameborder="0"></iframe>
+</div>
+<p>Anemometer positioned on the <a href="https://www.exmouthlifeboat.org.uk/" target="_blank">RNLI Lifeboat building roof</a></p>
+<em style="color:gray;font-size:80%"><p>Real time data from the <a href="https://coastalmonitoring.org/realtimedata/?chart=117&tab=met&range=default&disp_option=0&user_indate=&datum=chart" target="_blank">Regional Coastal Monitoring Programme</a>, made freely available under the terms of the Open Government Licence. Please note that these are real-time data and are not quality-controlled.</p></em>
+
+<p class="mt-3 mb-0"><strong>Duckpond - live wind</strong></p>
+<div class="windguru-container text-center">
+<iframe src="https://www.windguru.cz/wglive-iframe.php?s=1882&wj=knots&tj=c&m=3&gsize=200&msize=200&show=g,c" frameborder="0"></iframe>
+<caption><em style="font-size:70%">Charts by <a href="https://www.windguru.cz/47887" target="_blank">Windguru</a> and weather stations sponsored by <a href="https://www.edgewatersports.com/" target="_blank">EDGE Watersports</a></em></caption>
+</div>
+    
+<hr>
+
+## ⛯ Spots
+
+There are two spots in Exmouth - the [Sea Front and Duck Pond](/spot-guide/). The wind and tide conditions dictate which will be best at any particular time.
+
+* [Duck Pond](/spot-guide/duck-pond/) is better around High Tide with winds coming from the north.
+* [Sea Front](/spot-guide/seafront/) is better around Low Tide  with winds coming from the south.
+
+See the detailed <a href="/spot-guide/">Spot Guides</a> for more information
+
+<hr>
+
+## 💨 Forecast
+
+* [Tide Times](https://www.tidetimes.org.uk/exmouth-dock-tide-times)   
+* [Windguru - Exmouth](https://www.windguru.cz/47887)
+* [BBC Weather](https://www.bbc.co.uk/weather/2649800)
+* [XC Weather](https://www.xcweather.co.uk/) - broader overview of the wind (actual and forecast) over the UK.
+* [Magic Seaweed](https://magicseaweed.com/Exmouth-Surf-Report/164/)
+* [Met Office - surface pressure charts](https://weather.metoffice.gov.uk/maps-and-charts/surface-pressure)
+* [Met Office - Insore Waters, Lyme Regis to Lands End (#8)](https://www.metoffice.gov.uk/weather/specialist-forecasts/coast-and-sea/inshore-waters-forecast#area8)
+* [NCI Exmouth - Weather Page](https://nciexmouth.org.uk/weather-data/)
+
+<hr>
+
+## 📷 Webcams
+
+* [Exmouth NCI Coastwatch](https://www.viewcam.co.uk/clients/feeds/ssl/codegenssl.php?feed=nciexmouth&version=compatible)
+* [Exmouthcam Seafront](https://www.exmouthcam.co.uk/webcam/)
+* [Startcross Yacht Club](https://www.starcrossyc.org.uk/essentials/webcam)
+
+<hr>
+
+## 💩 Water Quality & Pollution
+
+
+* [Surfers against Sewage (SAS)](https://www.sas.org.uk/water-quality/sewage-pollution-alerts/)
+* [Water Fit Live - SWW](https://www.southwestwater.co.uk/environment/rivers-and-bathing-waters/waterfitlive/storm-overflow-map)
+* [ESCAPE - End Sewage Convoyys And Poollution Exmouth](https://www.facebook.com/groups/exmouthescape)
+* [Friends of the River Exe (FORE)](https://friendsoftheriverexe.org/)
+
+<hr>
+
+## Other
+
+* [Exmouth NCI Weather Station](https://exmouthcoastwatch.co.uk/weather/) - under-reads if the wind has any North in it so check the Duckpond one above too.
+* [Starcross Yacht Club Weather Station](https://www.starcrossyc.org.uk/weather)
+
+<!-- Warning modal -->
+
+<!-- <div class="modal fade" id="seafrontWarningModal" tabindex="-1" role="dialog" aria-labelledby="seafrontWarningModalLabel" aria-hidden="true" data-backdrop="static">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">      
+      <div class="modal-body">
+<div>
+
+**Powerboat racing on seafront New Years day**
+
+It is expected to start about 11:30 and take about half an hour but can be any time between 11am and 3pm depending on conditions.
+
+The course is expected to run from Mamhead Slipway to opposite the Imperial Hotel, but can be anywhere between Mamhead and the Safe Water Mark (first bouy out ot sea).
+
+**For safety and good relations please keep well clear.**
+
+More details from the [Exeter Port Authority](https://www.facebook.com/ExeterPortAuthority/posts/2121978271285031) and [Exe Power Boat & Ski Club](http://www.exmouthskiclub.com/)
+
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success mx-auto" data-dismiss="modal">Gotcha, show me the Weather!</button>        
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- Show warning on page load but just once  -->
+<!-- <script>
+    window.addEventListener("DOMContentLoaded",function() {
+        const warningKey = "warnRaceOnce2";
+         if (!document.cookie.split('; ').find(row => row.startsWith(warningKey))) {            
+            document.cookie = warningKey + "=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; Secure";
+            $('#seafrontWarningModal').modal()   
+        }        
+    });
+</script>  -->

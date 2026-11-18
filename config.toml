@@ -1,11 +1,14 @@
-baseURL = "https://exe-kiteboarders.co.uk/"
-languageCode = "en-gb"
-title = "Exe Kiteboarders"
+baseURL = "https://exe-windsports.co.uk/"
+locale = "en-gb"
+title = "Exe WindSports"
 theme = "hugo-now-ui"
+
+[markup.goldmark.renderer]
+unsafe= true
 
 [params]
     # TODO - is description used in this?
-    description = "Exmouth (Devon, UK) Kiteboarders"
+    description = "Exmouth (Devon, UK) WindSports"
     # These were for ananke theme
     #facebook = "https://www.facebook.com/groups/Billysnowmates/"
     #twitter = "https://twitter.com/billymatessnow"
@@ -20,26 +23,22 @@ theme = "hugo-now-ui"
         
     tint = "orange" # If change from orange then lose some othter formatting - probably have to muck around with css generators?
 
+    # Using GTag manager not analytics code so can't use _internal/google_analytics.html template - implemented in head.html     
+    google_tag_manager = "UA-140157010-3"
+
 [menu]           
 
     [[menu.footer]]
         identifier = "facebook"
         pre = "<i class='fa fa-facebook'></i>"
         url = "https://www.facebook.com/groups/exmouthkitesurf/"
-        weight = 10   
+        weight = 10    
 
     [[menu.footer]]
-        identifier = "facebook2"
-        pre = "<i class='fa fa-facebook'></i>"
-        url = "https://www.facebook.com/groups/776864838993273/"
-        weight = 20    
-    
-
-    [[menu.footer]]
-        identifier = "contact"
-        name = "Contact Us"
-        url = "/contact-us/"
-        weight = 30    
+         identifier = "contact"
+         name = "Contact Us"
+         url = "/contact-us/"
+         weight = 30    
 
     [[menu.footer]]
         identifier = "privacy"
@@ -78,29 +77,35 @@ theme = "hugo-now-ui"
         name = "Weather"
         url = "/weather/"
         weight = 20
-        
+
+#    [[menu.main]]
+#        identifier = "agm"
+#        name = "AGM"
+#        url = "/meeting-agm/"
+#        weight = 25
+
     [[menu.main]]
         identifier = "links"
         name = "Links"
         url = "/links/"
-        weight = 30            
+        weight = 30
 
     [[menu.main]]
         identifier = "code-of-conduct"
         name = "Code of Conduct"
         url = "/code-of-conduct/"
-        weight = 60
+        weight = 60    
+
+    # [[menu.main]]
+    #     identifier = "about"
+    #     name = "About"
+    #     url = "/about/"
+    #     weight = 80
 
     [[menu.main]]
-        identifier = "code-of-conduct-old"
-        name = "Code of Conduct - Old"
-        url = "/code-of-conduct-old/"
-        weight = 70
-
-    [[menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about/"
+        identifier = "straight-point"
+        name = "Straight Point"
+        url = "/straight-point/"
         weight = 80
 
     [[menu.main]]
@@ -108,4 +113,16 @@ theme = "hugo-now-ui"
         name = "Membership"
         url = "/membership/"
         weight = 90
+
+    #[[menu.main]]
+    #    identifier = "shread-fest"
+    #    name = "Shred Fest!"
+    #    url = "/shred-fest/"
+    #    weight = 100
+
+    # [[menu.main]]
+    #     identifier = "news"
+    #     name = "News"
+    #     url = "/news/"
+    #     weight = 100
     

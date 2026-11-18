@@ -35,33 +35,22 @@ Start Hugo server
 
 cd c:\dev\hugo
 
-CD Sites\exe-kiteboarders.co.uk
+CD Sites\exe-windsports.co.uk
 
 hugo server -D
 
 # If want to access from other machine in network
 hugo server --bind=0.0.0.0 --baseURL=http://whistler:1313
 
+# Non default (1313) port
+
+hugo server -p 1313
+
 start chrome http://localhost:1313/
 
 code .
 
-=== BUILD FOR DEPLOYMENT
-rmdir public /s
-hugo
--- then git add/commit/push
-
-// Add and commit
-		git add * or filename		
-		// see whats in commit
-		git status
-		git commit -m "MESSAGE"
-		git push -u origin master
-				
-		// pull and merge
-		git pull			
-		
-		
-=== Setup new site
-
-hugo new site [dir]
+DEPLOYMENT
+==========
+Just push to git
+Netlify will run build step automagically.
