@@ -1,5 +1,5 @@
 baseURL = "https://exe-windsports.co.uk/"
-languageCode = "en-gb"
+locale = "en-gb"
 title = "Exe WindSports"
 theme = "hugo-now-ui"
 
@@ -78,11 +78,11 @@ unsafe= true
         url = "/weather/"
         weight = 20
 
-    [[menu.main]]
-        identifier = "agm"
-        name = "AGM"
-        url = "/meeting-agm/"
-        weight = 25
+#    [[menu.main]]
+#        identifier = "agm"
+#        name = "AGM"
+#        url = "/meeting-agm/"
+#        weight = 25
 
     [[menu.main]]
         identifier = "links"
