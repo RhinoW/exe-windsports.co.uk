@@ -1,6 +1,6 @@
-baseURL = "https://exe-kiteboarders.co.uk/"
+baseURL = "https://exe-windsports.co.uk/"
 languageCode = "en-gb"
-title = "Exe Kiteboarders"
+title = "Exe WindSports"
 theme = "hugo-now-ui"
 
 [markup.goldmark.renderer]
@@ -8,7 +8,7 @@ unsafe= true
 
 [params]
     # TODO - is description used in this?
-    description = "Exmouth (Devon, UK) Kiteboarders"
+    description = "Exmouth (Devon, UK) WindSports"
     # These were for ananke theme
     #facebook = "https://www.facebook.com/groups/Billysnowmates/"
     #twitter = "https://twitter.com/billymatessnow"

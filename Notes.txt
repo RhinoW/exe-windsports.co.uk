@@ -35,7 +35,7 @@ Start Hugo server
 
 cd c:\dev\hugo
 
-CD Sites\exe-kiteboarders.co.uk
+CD Sites\exe-windsports.co.uk
 
 hugo server -D
 
