@@ -1,7 +1,7 @@
 theme = "hugo-now-ui"
 baseurl = "/"
 relativeurls = true
-languageCode = "en-us"
+locale = "en-us"
 title = "Now UI Kit"
 googleAnalytics = ""
 disqusShortname = ""
