@@ -13,7 +13,7 @@ description: 3rd Party Insurance and a strong local & national voice.
 <br>
 <br>
 <div class="text-center">
-<a style="font-weight:bolder; font-size:larger;" target="_blank" href="https://www.britishkitesports.org/join-british-kitesports/">Join British Kitesports today</a>
+<a style="font-weight:bolder; font-size:larger;" target="_blank" href="https://britishkitesports.org/">Join British Kitesports today</a>
 <br><br>
 <em>Please join "Exe-Kiteboarders" during the signup process as your local club.</em>
 <br><br><br>

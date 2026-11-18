@@ -125,7 +125,7 @@ See the detailed <a href="/spot-guide/">Spot Guides</a> for more information
 * [BBC Weather](https://www.bbc.co.uk/weather/2649800)
 * [XC Weather](https://www.xcweather.co.uk/) - broader overview of the wind (actual and forecast) over the UK.
 * [Magic Seaweed](https://magicseaweed.com/Exmouth-Surf-Report/164/)
-* [Met Office - surface pressure charts](https://www.metoffice.gov.uk/weather/maps-and-charts/surface-pressure/)
+* [Met Office - surface pressure charts](https://weather.metoffice.gov.uk/maps-and-charts/surface-pressure)
 * [Met Office - Insore Waters, Lyme Regis to Lands End (#8)](https://www.metoffice.gov.uk/weather/specialist-forecasts/coast-and-sea/inshore-waters-forecast#area8)
 * [NCI Exmouth - Weather Page](https://nciexmouth.org.uk/weather-data/)
 

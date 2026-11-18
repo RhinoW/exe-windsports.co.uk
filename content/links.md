@@ -9,22 +9,23 @@ description: "Useful links for the kite-surfers in Exmouth"
 * [Weather & Webcams](/weather/)
 * [Code of Conduct](/code-of-conduct/)
 
-## Exmouth Kiteboarding Facebook groups
+## Exmouth Facebook groups
 (Great for introducing yourselve, discussions, asking for advice and finding lost gear!)
 
 * [Exmouth Kiteboarders](https://www.facebook.com/groups/exmouthkitesurf/)
+* [Exmouth Wingsurfing/Wingfoiling](https://www.facebook.com/groups/467615481149926)
+* [Exmouth Windsurfers](https://www.facebook.com/groups/523926131035529/)
+* [River Exe & Exe Estuary - Water users Group](https://www.facebook.com/groups/4834026396707092/)
 
 ## Local Instructors
 
 Instruction is not just essential for safety - its an investment and will save you time and money.
 
 * [EDGE Watersports](https://www.edgewatersports.com/)
-* [Taylored Watersports](http://tayloredwatersports.com/)
 
 ## Local Kitesurfing Shops
 
 * [EDGE Watersports](https://www.edgewatersports.com/)
-* [CODA Watersports](https://www.codawatersports.com/)
 
 ## Kitesurfing clubs
 

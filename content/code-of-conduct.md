@@ -2,7 +2,7 @@
 title: "Code of Conduct"
 ---
 
-This voluntary Code of Conduct has been developed in association with [British Kitesports](https://www.britishkitesports.org/join-british-kitesports/code-of-conduct/) and the Exe Estuary Management Partnership and is based on common sense and co-operation.
+This voluntary Code of Conduct has been developed in association with [British Kitesports](https://britishkitesports.org/kitesports-disciplines/) and the Exe Estuary Management Partnership and is based on common sense and co-operation.
 
 ## General
 

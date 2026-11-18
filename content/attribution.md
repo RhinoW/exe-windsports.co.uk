@@ -10,7 +10,7 @@ title: "Attribution"
 
 ## Photos
 * Chris Battershill
-* [Marc Kleen](https://unsplash.com/@marckleen/portfolio) from [Unsplash](https://unsplash.com/@marckleen)
+* Marc Kleen from [Unsplash](https://unsplash.com/@marckleen)
 
 ## Theme
 
